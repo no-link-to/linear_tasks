@@ -89,14 +89,14 @@ if __name__ == '__main__':
     # linal.draw_task_figure([1, 0, 4, 0], task_axis_limit=40)
 
     # Пункт 3
-    # linal.draw_task_figure([0.643, 0.766, -0.766, 0.643], task_axis_limit=15, is_minus_axis=True)
+    # linal.draw_task_figure([0.643, -0.766, 0.766, 0.643], task_axis_limit=15, is_minus_axis=True)
 
     # Пункт 4
     # linal.draw_task_figure([-1, 0, 0, -1], is_minus_axis=True)
 
     # Пункт 5
-    # linal.draw_task_figure([(-4 + 3 * math.sqrt(3)) / 10, (3 + 4 * math.sqrt(3)) / 10,
-                            # (3 + 4 * math.sqrt(3)) / 10, (4 - 3 * math.sqrt(3)) / 10], task_axis_limit=10)
+    linal.draw_task_figure([(-4 - 3 * math.sqrt(3)) / 10, (3 - 4 * math.sqrt(3)) / 10,
+                            (3 - 4 * math.sqrt(3)) / 10, (4 + 3 * math.sqrt(3)) / 10], is_minus_axis=True)
 
     # Пункт 6
     # linal.draw_task_figure([1, 1, 3, 4], task_axis_limit=80)
